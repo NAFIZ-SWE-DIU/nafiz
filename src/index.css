@@ -138,3 +138,56 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+
+#scroll-up-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  padding: 7px 14px;
+  background: #22d3ee;
+  color: #fff;
+  border-radius: 2px;
+  transition: transform 0.3s;
+  z-index: 999;
+}
+
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar{
+  padding: 15px 40px;
+  background: #06b6d4;
+  border: none;
+  font-size: 0.85em;
+  box-shadow: 0 -3px 12px 0 #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: box-shadow 0.3s;
+}
+
+.items-start{
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
