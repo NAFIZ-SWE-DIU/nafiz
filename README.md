@@ -2,4 +2,5 @@
 
 
 
-📙 Get the Ultimate Frontend & Backend Development Roadmaps, a Complete JavaScript Cheatsheet, Portfolio Tips, and more - http://www.shoshurbari.rf.gd.
+📙 When I code,
+I code with fun. so, I never get bored. - http://www.shoshurbari.rf.gd.
