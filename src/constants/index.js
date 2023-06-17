@@ -1,4 +1,10 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, linkedin, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+
+
+
+
+
+
 
 export const navLinks = [
   {
@@ -7,15 +13,23 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Service",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Project",
   },
   {
     id: "clients",
     title: "Clients",
+  },
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];
 
@@ -52,6 +66,7 @@ export const feedback = [
     title: "Founder & Leader",
     img: people01,
   },
+
   {
     id: "feedback-2",
     content:
@@ -73,62 +88,38 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Service",
+    value: "20+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Customer",
+    value: "80+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Project",
+    value: "15+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Quiick Links",
     links: [
       {
-        name: "Content",
+        name: "Contact",
         link: "https://www.hoobank.com/content/",
       },
       {
         name: "How it Works",
         link: "https://www.hoobank.com/how-it-works/",
       },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
     ],
   },
   {
     title: "Community",
     links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
       {
         name: "Blog",
         link: "https://www.hoobank.com/blog/",
@@ -139,6 +130,7 @@ export const footerLinks = [
       },
     ],
   },
+
   {
     title: "Partner",
     links: [
@@ -147,7 +139,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Our Customer",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
@@ -157,23 +149,13 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
+    icon: facebook,
+    link: "https://www.facebook.com/NAFIZ.SWE.DIU/",
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/nafiz-swe-diu/",
   },
 ];
 
